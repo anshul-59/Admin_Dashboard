@@ -1,70 +1,121 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Admin Dashboard App
 
-## Available Scripts
+The Admin Panel includes one Dashboard, three pages, four Apps and seven fully functional charts to explore the different possibilities of application that can be made.
+
+This project was bootstrapped with [Create React App]
+
+
+The Project is  created using React and integrated with Syncfusion component library. I used context API for statemanagement since it is a relatively small application. For styling Talwind CSS is used as it the components can be designed on the go. Here React Router DOM is used which is a popular routing library for React applications, enabling client-side routing and navigation.
+It's used to define and manage routes within the application, allowing users to navigate between different pages or views.React Icons library is used to enhance the visual appeal of the application by incorporating icons into UI components.
+
+Syncfusion Integration:
+Syncfusion, a comprehensive UI component suite, is integrated into the dashboard project.
+Syncfusion components offer a wide range of functionalities and features, allowing developers to build complex interfaces efficiently.
+The free community license provided by Syncfusion enables developers to access and utilize the entire suite of components without additional cost.
+
+
+
+
+
+## Getting Started
+
+
+
+
+
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+## Features
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Dashboard Overview:
+The dashboard serves as a centralized hub for viewing critical metrics like earnings, recent transactions, and sales overview.
+It provides a user-friendly interface to visualize and analyze data efficiently.
+The dashboard is divided into multiple pages, each focusing on different aspects of business operations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Orders Page:
+This page displays an orders table, presenting information about past transactions.
+A pagination system allows users to navigate through a large number of orders conveniently.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Employees Page:
+The employees page facilitates the management of staff-related data.
+It includes robust search and filtering capabilities, enabling users to quickly locate specific employees based on various criteria.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Customers Page:
+Users can interact with a dynamic table on the customers page, which provides insights into customer data.
+The table supports full editability, allowing users to modify customer information directly within the dashboard.
 
-### `npm run eject`
+Additional Apps Included:
+The dashboard incorporates several standalone applications that complement its functionality.
+A fully functional calendar application enables users to manage events seamlessly, offering features like drag-and-drop functionality and multiple viewing modes.
+A kanban board provides a flexible way to visualize and manage tasks, similar to popular project management tools like Trello and Jira.
+A WYSIWYG (What You See Is What You Get) editor empowers users to edit text content intuitively, with options to format text, insert images, and more.
+A color picker tool allows users to select and customize colors, which can be useful for theming applications or customizing visual elements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Charts:
+The dashboard includes a diverse range of chart types to visualize data effectively.
+Chart types include line charts, area charts, bar charts, pie charts, financial candle charts, color mapping charts, and pyramid charts.
+Each chart type offers interactive features such as tooltips, hide/unhide functionality, and customizable settings.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Sidebar and Widgets:
+A collapsible sidebar enhances the user experience by providing more space for viewing content.
+Additional widgets, such as a shopping cart, chat module, notifications panel, and user profile section, offer supplementary functionalities to users.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Mobile Responsiveness:
+The dashboard is designed to be responsive across various devices, ensuring a seamless user experience on both desktop and mobile platforms.
+The layout adjusts dynamically to accommodate different screen sizes, with the sidebar automatically collapsing on smaller screens to optimize space.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Dashboard Overview:
+The dashboard serves as a centralized hub for viewing critical metrics like earnings, recent transactions, and sales overview.
+It provides a user-friendly interface to visualize and analyze data efficiently.
+The dashboard is divided into multiple pages, each focusing on different aspects of business operations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Orders Page:
+This page displays an orders table, presenting information about past transactions.
+A pagination system allows users to navigate through a large number of orders conveniently.
 
-### Analyzing the Bundle Size
+Employees Page:
+The employees page facilitates the management of staff-related data.
+It includes robust search and filtering capabilities, enabling users to quickly locate specific employees based on various criteria.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Customers Page:
+Users can interact with a dynamic table on the customers page, which provides insights into customer data.
+The table supports full editability, allowing users to modify customer information directly within the dashboard.
 
-### Making a Progressive Web App
+Additional Apps Included:
+The dashboard incorporates several standalone applications that complement its functionality.
+A fully functional calendar application enables users to manage events seamlessly, offering features like drag-and-drop functionality and multiple viewing modes.
+A kanban board provides a flexible way to visualize and manage tasks, similar to popular project management tools like Trello and Jira.
+A WYSIWYG (What You See Is What You Get) editor empowers users to edit text content intuitively, with options to format text, insert images, and more.
+A color picker tool allows users to select and customize colors, which can be useful for theming applications or customizing visual elements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Charts:
+The dashboard includes a diverse range of chart types to visualize data effectively.
+Chart types include line charts, area charts, bar charts, pie charts, financial candle charts, color mapping charts, and pyramid charts.
+Each chart type offers interactive features such as tooltips, hide/unhide functionality, and customizable settings.
 
-### Advanced Configuration
+Sidebar and Widgets:
+A collapsible sidebar enhances the user experience by providing more space for viewing content.
+Additional widgets, such as a shopping cart, chat module, notifications panel, and user profile section, offer supplementary functionalities to users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Mobile Responsiveness:
+The dashboard is designed to be responsive across various devices, ensuring a seamless user experience on both desktop and mobile platforms.
+The layout adjusts dynamically to accommodate different screen sizes, with the sidebar automatically collapsing on smaller screens to optimize space.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
